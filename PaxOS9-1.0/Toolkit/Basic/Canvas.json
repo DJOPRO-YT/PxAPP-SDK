@@ -1,0 +1,10 @@
+{
+    "name":"Canvas",
+    "image":"canvas.png",
+    "name_oncode":"",
+    "properties":[
+    ],
+    "need_size":true,
+    "x":0,"y":0,"w":0,"h":0,
+    "code":"[[name_oncode]] = gui:canvas(win, [[x]], [[y]], [[w]], [[h]])"
+}

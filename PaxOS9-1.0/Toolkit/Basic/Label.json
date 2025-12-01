@@ -1,0 +1,13 @@
+{
+    "name":"Label",
+    "image":"label.png",
+    "name_oncode":"",
+    "properties":[
+        {"name":"Text","value_type":"str","value":"","code":"[[name_oncode]]:setText([[current]])"},
+        {"name":"FontSize","value_type":"int","value":0,"code":"[[name_oncode]]:setFontSize([[current]])"},
+        {"name":"TextColor [R,G,B]","value_type":"other","value":"255, 255, 255","code":"[[name_oncode]]:setTextColorRGB([[current]])"}
+    ],
+    "need_size":true,
+    "x":0,"y":0,"w":0,"h":0,
+    "code":"[[name_oncode]] = gui:label(win, [[x]], [[y]], [[w]], [[h]])"
+}

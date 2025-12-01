@@ -1,0 +1,13 @@
+{
+    "name":"Switch",
+    "image":"switch.png",
+    "name_oncode":"",
+    "properties":[
+        {"name":"Checked","value_type":"bool","value":"false","code":"[[name_oncode]]:setState([[current]])"}
+    ],
+    "need_size":false,
+    "x":0,"y":0,
+    "w":40,
+    "h":20,
+    "code":"[[name_oncode]] = gui:switch(win, [[x]], [[y]])"
+}

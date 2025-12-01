@@ -1,0 +1,12 @@
+{
+    "name":"Image",
+    "image":"image.png",
+    "name_oncode":"",
+    "properties":[
+        {"name":"Path","value_type":"str","value":"","code":""},
+        {"name":"Background","value_type":"str","value":"","code":""}
+    ],
+    "need_size":true,
+    "x":0,"y":0,"w":0,"h":0,
+    "code":"[[name_oncode]] = gui:image(win, [[Path]],[[x]], [[y]], [[w]], [[h]],[[Background]])"
+}

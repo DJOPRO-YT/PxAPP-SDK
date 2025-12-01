@@ -1,0 +1,15 @@
+{
+    "name":"Input",
+    "image":"input.png",
+    "name_oncode":"",
+    "properties":[
+        {"name":"Placeholder","value_type":"str","value":"","code":"[[name_oncode]]:setPlaceHolder(\"[[current]]\")"},
+        {"name":"Text","value_type":"str","value":"","code":"[[name_oncode]]:setText(\"[[current]]\")"},
+        {"name":"Title","value_type":"str","value":"","code":"[[name_oncode]]:setTitle(\"[[current]]\")"}
+    ],
+    "need_size":false,
+    "x":0,"y":0,
+    "w":250,
+    "h":46,
+    "code":"[[name_oncode]] = gui:input(win, [[x]], [[y]])"
+}

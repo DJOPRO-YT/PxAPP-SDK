@@ -1,0 +1,12 @@
+{
+    "image":"btn.png",
+    "name":"Button",
+    "name_oncode":"",
+    "properties":[
+        {"name":"Text","value_type":"str","value":"","code":"[[name_oncode]]:setText([[current]])"},
+        {"name":"Icon","value_type":"str","value":"","code":"[[name_oncode]]:setIcon([[current]])"}
+    ],
+    "need_size":true,
+    "x":0,"y":0,"w":0,"h":0,
+    "code":"[[name_oncode]] = gui:button(win, [[x]], [[y]], [[w]], [[h]])"
+}

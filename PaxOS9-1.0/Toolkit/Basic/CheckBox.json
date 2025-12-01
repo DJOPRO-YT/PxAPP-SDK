@@ -1,0 +1,13 @@
+{
+    "name":"CheckBox",
+    "image":"checkbox.png",
+    "name_oncode":"",
+    "properties":[
+        {"name":"Checked","value_type":"bool","value":"","code":"[[name_oncode]]:setState([[current]])"}
+    ],
+    "need_size":false,
+    "x":0,"y":0,
+    "w":20,
+    "h":20,
+    "code":"[[name_oncode]] = gui:checkbox(win, [[x]], [[y]])"
+}

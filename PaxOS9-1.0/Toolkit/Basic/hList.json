@@ -1,0 +1,11 @@
+{
+    "name":"H_List",
+    "image":"hlist.png",
+    "name_oncode":"",
+    "properties":[
+        {"name":"Gap","value_type":"int","value":0,"code":"[[name_oncode]]:setSpaceLine([[current]])"}
+    ],
+    "need_size":true,
+    "x":0,"y":0,"w":0,"h":0,
+    "code":"[[name_oncode]] = gui:hList(win, [[x]], [[y]], [[w]], [[h]])"
+}
